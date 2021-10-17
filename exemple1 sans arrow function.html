@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemple d'utilisation sans arrow function</title>
+</head>
+<body>
+
+    <h2>Fonction JS</h2>
+    <p>Exemple <b>sans</b> l'utilisation d'arrow function </p>
+    <p id="notarrow"></p>
+
+    <script>
+        let message;
+        message= function(){
+            return "Je suis une fonction simple Javascript!";
+        }       
+        document.getElementById('notarrow').innerHTML=message();
+</script>    
+</body>
+</html>
